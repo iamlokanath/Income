@@ -1,0 +1,104 @@
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100vh;
+
+    
+}
+.third-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 40px; */
+    width: 100%;
+    height: 70%;
+    /* padding-left: 2rem; */
+}
+.third-first{
+    /* display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;*/
+    display: flex;
+    background-color: #FAFAFA;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+} 
+.third-first-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.third-first-first{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    
+}
+.third-first-first-first{
+    font-size: 20px;
+    font-weight: 500;
+}
+.third-first-first-second{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contribution{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.employement-first{
+    font-weight: 500;
+}
+.employemenet-second{
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    justify-content: space-between;
+}
+.percentage{
+font-weight: 500;
+}
+
+.third-first-second{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.employe{
+    /* width: 99%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    gap: 20px;
+}
+
+.third-first-third button{
+    width: 220px;
+    height: 40px;
+    border: 1px solid #4935FF;
+    border-radius: 10px;
+    background-color: #4935FF;
+}
+.third-second{
+    border-left: 2px solid #4935FF;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px ;
+}

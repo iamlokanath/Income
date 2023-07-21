@@ -1,0 +1,152 @@
+.income{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    /* height: 85vh; */
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    flex-direction: column;
+    gap: 40px;
+}
+.income-first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.income-first-container{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    gap: 40px;
+}
+
+.income-first-container-second{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 40px;
+}
+/* .income-first-container-second-first{
+
+} */
+.retirement-income{
+    font-weight: 500;
+    font-size: 17px;
+    color: #4935FF;
+}
+.starting-year{
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.money{
+    font-weight: 500;
+    font-size: 25px;
+}
+.goal{
+    font-size: 15px;
+    font-weight: 400;
+    color: #969696;
+}
+.line hr{
+    width: 150px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.income-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.income-second-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+/* .income-second-container-second img{
+    width: 600px;
+
+} */
+
+.income-third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%;
+    height: 100%; */
+     
+}
+.income-third-container{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+}
+
+.income-third-container-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+.income-third-container-second-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.income-third-container-second-left-first{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    /* border-bottom: 1px solid black; */
+    width: 200px;
+    padding-bottom: 10px;
+
+
+}
+.middle{
+    border-top: 1px solid rgb(182, 182, 182);
+    border-bottom: 1px solid rgb(182, 182, 182);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.income-third-container-second-right{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.avg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.avg-perc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid #22D6AA;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
