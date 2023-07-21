@@ -132,7 +132,7 @@
 
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 500px) {
     .income-third-container-second {
 
         display: flex;
@@ -140,7 +140,7 @@
         
         .income-third-container-second-left-first{
             
-            width: 100px;
+            width: 90px;
         }
 
     }
@@ -155,7 +155,7 @@
 }
 .income-third-container-second-right{
     display: flex;
-    gap: 30px;
+    gap: 10px;
     justify-content: space-between;
     align-items: center;
 }
