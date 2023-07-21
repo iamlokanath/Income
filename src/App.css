@@ -1,0 +1,58 @@
+/* .Total-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lokanath-home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+}
+@media only screen and (max-width: 1400px) {
+    .total-page-nav{
+        display: none;
+    }
+    .total-page-home {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  .App{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  } */
+
+.total-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.total-page-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    
+}
+
+.total-page-home{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 1050px) {
+    .total-page-nav{
+        display: none;
+    }
+    .total-page-home{
+        display: flex;
+        flex-direction: column;
+    }
+  }

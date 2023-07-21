@@ -4,13 +4,13 @@
     align-items: center;
     height: 100vh;
     width: 60px;
-    /* background-color: rgb(205, 203, 203); */
+    background-color: rgba(255, 255, 255, 1);
 }
 .nav-container{
     display: flex;
     flex-direction: column;
     gap: 210px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .nav-top{
@@ -30,8 +30,11 @@
     flex-direction: column;
     gap: 30px;
 }
-.fa-solid{
-    color: #b5b1b1;
+.logo{
+    color: #3E2EDF;
+}
+.nav-icon{
+    color: #9c9c9c;
 }
 /* .fa-house{
     background-color: rgb(255, 255, 255);
@@ -41,3 +44,12 @@
     width: 40px;
     align-items: center;
 } */
+
+.nav-home{
+    border: 1px solid #3E2EDF;
+    padding: 5px;
+    background-color: #3E2EDF;
+    color: white;
+    border-radius: 5px;
+}
+
